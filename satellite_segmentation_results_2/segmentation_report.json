@@ -1,0 +1,66 @@
+{
+    "project": "Automated Satellite Image Enhancement and Land-Cover Segmentation System",
+    "model": "Experimental U-Net",
+    "input_image": "119_sat.jpg",
+    "original_image_dimensions": [
+        2448,
+        2448,
+        3
+    ],
+    "model_input_dimensions": [
+        256,
+        256,
+        3
+    ],
+    "segmentation_dimensions": [
+        256,
+        256,
+        3
+    ],
+    "total_pixels": 65536,
+    "detected_classes": 5,
+    "land_cover_distribution": [
+        {
+            "class_id": 0,
+            "class_name": "urban_land",
+            "pixel_count": 4,
+            "percentage": 0.01
+        },
+        {
+            "class_id": 1,
+            "class_name": "agriculture_land",
+            "pixel_count": 14628,
+            "percentage": 22.32
+        },
+        {
+            "class_id": 2,
+            "class_name": "rangeland",
+            "pixel_count": 9691,
+            "percentage": 14.79
+        },
+        {
+            "class_id": 3,
+            "class_name": "forest_land",
+            "pixel_count": 38262,
+            "percentage": 58.38
+        },
+        {
+            "class_id": 4,
+            "class_name": "water",
+            "pixel_count": 2951,
+            "percentage": 4.5
+        },
+        {
+            "class_id": 5,
+            "class_name": "barren_land",
+            "pixel_count": 0,
+            "percentage": 0.0
+        },
+        {
+            "class_id": 6,
+            "class_name": "unknown",
+            "pixel_count": 0,
+            "percentage": 0.0
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+Class ID,Land-Cover Class,Pixel Count,Percentage (%),RGB Color
+0,urban_land,4,0.01,"(0, 255, 255)"
+1,agriculture_land,14628,22.32,"(255, 255, 0)"
+2,rangeland,9691,14.79,"(255, 0, 255)"
+3,forest_land,38262,58.38,"(0, 255, 0)"
+4,water,2951,4.5,"(0, 0, 255)"
+5,barren_land,0,0.0,"(255, 255, 255)"
+6,unknown,0,0.0,"(0, 0, 0)"

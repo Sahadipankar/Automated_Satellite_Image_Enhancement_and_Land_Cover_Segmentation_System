@@ -1,0 +1,25 @@
+======================================================================
+SATELLITE IMAGE SEGMENTATION REPORT
+======================================================================
+
+Model: Experimental U-Net
+Input image: 119_sat.jpg
+Original dimensions: (2448, 2448, 3)
+Segmentation dimensions: (256, 256, 3)
+Total pixels: 65536
+
+LAND-COVER DISTRIBUTION
+----------------------------------------------------------------------
+urban_land: 4 pixels (0.01%)
+agriculture_land: 14628 pixels (22.32%)
+rangeland: 9691 pixels (14.79%)
+forest_land: 38262 pixels (58.38%)
+water: 2951 pixels (4.5%)
+barren_land: 0 pixels (0.0%)
+unknown: 0 pixels (0.0%)
+
+IMAGE QUALITY STATISTICS
+----------------------------------------------------------------------
+               Image  Sharpness (Laplacian Variance)  Contrast (Standard Deviation)  Mean Brightness
+    Resized Original                        2015.937                         17.227           67.294
+Enhanced Model Input                         137.731                         28.163           80.205
